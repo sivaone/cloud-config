@@ -1,2 +1,8 @@
 app:
   name: 'Product Default'
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:55001/product'
+    username: appuser
+    password: apppwd117
+    driver-class-name: org.postgresql.Driver
