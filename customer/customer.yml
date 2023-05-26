@@ -4,5 +4,6 @@ spring:
   datasource:
     url: 'jdbc:postgresql://localhost:55000/customer'
     username: appuser
-    password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
+    # password: '{cipher}93386b1c11e97618e6b35273257989fc7afe0504c49427631750f6ce90d04c44'
+    password:
     driver-class-name: org.postgresql.Driver
